@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url(./background_image.jpg) no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 110vh;
+    width: 90%;
+  
+    margin: 0 auto;
+  }
+  header {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    padding: 10px;
+  }
+  h1 {
+    padding: 10px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-family: "Bowlby One SC", cursive;
+  }
+  
+  .clr-red {
+    color: red;
+  }
+  
+  .main {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.9);
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  
+  .inside-main {
+    padding: 15px 15px;
+  }
+  .input-field {
+    width: 90%;
+    height: 50px;
+  }
+  
+  .content-type {
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+  
+  #content {
+    width: 80%;
+    height: 35px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-top: 10px;
+  }
+  
+  li {
+    padding-bottom: 5px;
+  }
+  
+  .movie-type {
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  .gender {
+    padding-top: 100px;
+  }
+  
+  :-ms-textarea-placeholder {
+    padding: 10px;
+  }
+  .textarea {
+    width: 90%;
+    margin: 8px auto;
+    resize: none;
+  }
+  .btn {
+    background-color: red;
+    color: white;
+    width: 20%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .btn-submit {
+    margin: auto;
+    text-align: center;
+  }

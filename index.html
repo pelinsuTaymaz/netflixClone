@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Imperial+Script&family=Open+Sans:wght@300;400&family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <header>
+        <h1><span class="clr-red">NET</span>FLIX</h1>
+        <p>Thank you for signing up at Netflix. Tell us more about yourself.</p>
+      </header>
+      <main class="main">
+        <form action="#" method="get">
+          <section class="inside-main name">
+            <label for="name">Name</label> <br /><br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+              class="input-field"
+            />
+          </section>
+          <section class="inside-main age">
+            <label for="age">Age</label> <br /><br />
+            <input
+              type="number"
+              name="age"
+              id="age"
+              placeholder="Age"
+              class="input-field"
+            />
+          </section>
+          <section class="inside-main email">
+            <label for="email">Email</label> <br /><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              class="input-field"
+            />
+          </section>
+          <article class="content-type">
+            <label for="content">Content type</label> <br />
+            <select name="content-type" id="content">
+              <option value="series">Series</option>
+              <option value="movies">Movies</option>
+              <option value="documentaries">Documentaries</option>
+              <option value="programs">Programs</option>
+              <option value="animes">Animes</option>
+            </select>
+          </article>
+          <article class="movie-type">
+            <label for="movie-type"> Movie type:</label>
+            <ul>
+              <li>
+                <input type="checkbox" name="" id="comedy" />
+                <label for="comedy">Comedy</label>
+              </li>
+
+              <li>
+                <input type="checkbox" name="" id="action" />
+                <label for="action">Action</label>
+              </li>
+              <li>
+                <input type="checkbox" name="" id="romance" />
+                <label for="romance">Romance</label>
+              </li>
+            </ul>
+          </article>
+          <article class="movie-type">
+            <label class="gender">Gender:</label>
+            <ul>
+              <li>
+                <input type="radio" name="gender" id="male" />
+                <label for="male">Male</label>
+              </li>
+              <li>
+                <input type="radio" name="gender" id="female" />
+                <label for="female">Female</label>
+              </li>
+              <li>
+                <input type="radio" name="gender" id="other" />
+                <label for="other">Other</label>
+              </li>
+            </ul>
+          </article>
+          <article class="textarea">
+            <label for="feedback">Feed back</label><br />
+            <textarea
+              class="textarea"
+              name="comment"
+              id="feedback"
+              cols="30"
+              rows="5"
+              placeholder="Any comment"
+            ></textarea>
+          </article>
+          <div class="btn-submit">
+            <input type="submit" value="Submit" class="btn" />
+          </div>
+          <br />
+          <br />
+        </form>
+      </main>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+  </body>
+</html>
